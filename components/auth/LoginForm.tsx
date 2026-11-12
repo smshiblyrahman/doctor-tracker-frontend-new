@@ -93,9 +93,14 @@ export function LoginForm() {
         Sign in
       </Button>
 
-      <p className="rounded-md bg-muted px-3 py-2 text-center text-xs text-muted-foreground">
-        Demo: <span className="font-mono">admin@doctortracker.dev</span> / <span className="font-mono">Admin@12345</span>
-      </p>
+      <div className="rounded-md bg-muted px-3 py-2 text-center text-xs text-muted-foreground space-y-1">
+        <p>
+          Admin: <span className="font-mono font-medium text-foreground">admin@doctortracker.dev</span> / <span className="font-mono font-medium text-foreground">Admin@12345</span>
+        </p>
+        <p>
+          Patient: <span className="font-mono font-medium text-foreground">patient@doctortracker.dev</span> / <span className="font-mono font-medium text-foreground">Patient@12345</span>
+        </p>
+      </div>
     </form>
   );
 }

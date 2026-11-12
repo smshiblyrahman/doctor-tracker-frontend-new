@@ -47,6 +47,6 @@ npm run dev
 
 App runs on `http://localhost:3000`. Ensure backend API Gateway is running on `http://localhost:5050` or `http://localhost:5000` (configured in `.env.local`).
 
-**Demo Login:**
-- Email: `admin@doctortracker.dev`
-- Password: `Admin@12345`
+**Demo Credentials:**
+- **Admin:** `admin@doctortracker.dev` / `Admin@12345`
+- **Patient:** `patient@doctortracker.dev` / `Patient@12345`
