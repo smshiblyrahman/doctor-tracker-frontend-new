@@ -24,7 +24,7 @@ In your [Vercel Project Settings](https://vercel.com) -> **Environment Variables
 
 | Key | Value | Description |
 |---|---|---|
-| `API_GATEWAY_URL` | `https://doctor-tracker-gateway.onrender.com` | Live URL of your Render API Gateway |
+| `API_GATEWAY_URL` | `https://doctor-tracker-backend-new.onrender.com` | Live URL of your Render backend API |
 | `NEXT_PUBLIC_API_BASE_URL` | `/api/v1` | Base API route mapped via Next.js proxy rewrite |
 
 ### Deploy Steps

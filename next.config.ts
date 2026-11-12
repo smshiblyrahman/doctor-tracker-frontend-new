@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
-const gatewayUrl = process.env.API_GATEWAY_URL ?? "http://localhost:5000";
+const gatewayUrl =
+  process.env.API_GATEWAY_URL ||
+  (process.env.NODE_ENV === "production"
+    ? "https://doctor-tracker-backend-new.onrender.com"
+    : "http://localhost:5000");
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
